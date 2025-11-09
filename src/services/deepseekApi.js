@@ -8,7 +8,7 @@ export const fetchDeepseekResponse = async (message, chatId) => {
                 'Authorization': 'Bearer sk-84i3AD6d32BrfqCO0F9NLN6kaO1ye1hU5gttw0k4xJUeCIvi' // 替换为你的 API 密钥
             },
             body: JSON.stringify({
-                model: 'gpt-4.1-mini',
+                model: 'gemini-2.0-flash-001',
                 messages: [{ role: 'user', content: message }],
                 stream: false
             })
