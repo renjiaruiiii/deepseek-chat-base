@@ -1,5 +1,5 @@
 // DeepSeek API 封装：对接真实接口
-export const fetchDeepseekResponse = async (message, chatId) => {
+export const fetchDeepseekResponse = async (message) => {
     try {
         const response = await fetch('https://metahk.zenymes.com/v1/chat/completions', {
             method: 'POST',
